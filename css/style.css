@@ -1,0 +1,130 @@
+* {
+    font-family: sans-serif;
+  }
+  
+  body {
+    margin: 0;
+  }
+
+  
+  
+  .container {
+    display: flex;
+  
+    flex-wrap: wrap;
+    /* justify-content: space-around; */
+  }
+
+@media (max-width: 768px){
+    .container .item {
+        text-align: center;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+        margin-bottom: 25px;
+        padding: 20px;
+        flex-basis: 100%;
+    }
+    .item-10{
+        background: tomato;
+        order: 1;
+      }
+    .item-9{
+        background:#eee8af;
+        order: 2;
+    }
+    .item-8{
+        background: tomato;
+        order: 3;
+    }
+    .item-7{
+        background:#eee8af;
+        order: 4;
+    }
+    .item-6{
+        background: tomato;
+        order: 5;
+    }
+    .item-5{
+        background:#eee8af;
+        order: 6;
+    }
+    .item-4{
+        background: tomato;
+        order: 7;
+    }
+    .item-3{
+        background:#eee8af;
+        order: 8;
+    }
+    .item-2{
+        background: tomato;
+        order: 9;
+    }
+    .item-1{
+        background:#eee8af;
+        order: 10;
+    }
+}
+
+@media (min-width: 769px){
+    .container .item {
+        text-align: center;
+        justify-content: center;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+        margin-bottom: 25px;
+        padding: 20px;
+        display: flex;
+    }
+
+    .item-1{
+        background: #eee8af;
+        flex: 1 0 30%;
+        order: 1;
+    }
+    .item-2{
+        background: tomato;
+        flex: 1 0 23%;
+        order: 2;
+    }
+    .item-3{
+        background: #eee8af;
+        flex: 1 0 30%;
+        order: 3;
+    }
+    .item-4{
+        background: tomato;
+        flex: 1 0 30%;
+        order: 4;
+    }
+    .item-5{
+        background: #eee8af;
+        flex: 1 0 35%;
+        order: 5;
+    }
+    .item-6{
+        background: tomato;
+        flex: 1 0 30%;
+        order: 6;
+    }
+    .item-7{
+        background: #eee8af;
+        flex: 1 0 30%;
+        order: 7;
+    }
+    .item-8{
+        background: tomato;
+        flex: 1 0 23%;
+        order: 8;
+    }
+    .item-9{
+        background: #eee8af;
+        flex: 1 0 30%;
+        order: 9;
+    }
+    .item-10{
+        background: tomato;
+        order: 10;
+        flex-basis: 100%;
+    }
+}
